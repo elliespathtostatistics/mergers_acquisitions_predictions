@@ -1,5 +1,5 @@
 import org.apache.spark.sql.SparkSession
-
+#comment to test merge feature branch into master branch
 val spark = SparkSession
   .builder()
   .appName("Spark SQL basic example")
